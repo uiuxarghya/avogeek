@@ -649,7 +649,7 @@
                 <div class="row justify-content-center wow fadeInUp" data-wow-delay=".5s">
                     <div class="col-lg-10">
                         <div class="form">
-                            <form id="contact-form" method="post" action="contact.php">
+                            <form  name= "Contact" id="contact-form" method="post" action="contact.php">
                                 <div class="messages"></div>
                                 <div class="controls">
                                     <div class="row">
@@ -673,6 +673,7 @@
                                                 <textarea id="form_message" name="message" placeholder="Message" rows="4" required="required"></textarea>
                                             </div>
                                         </div>
+                                        <div data-netlify-recaptcha="true"></div>
                                         <div class="col-12">
                                             <div class="text-center">
                                                 <button type="submit" class="simple-btn custom-font cursor-pointer">
