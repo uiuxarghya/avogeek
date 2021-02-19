@@ -78,4 +78,5 @@ A quick look at the folder structure of this project.
 
 Copyright (c) 2020 uiuxarghya - Released under the [MIT license](LICENSE).
 
+
 Made with :heart: and passion by uiuxarghya
